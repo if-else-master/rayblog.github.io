@@ -7646,6 +7646,16 @@ textarea.form-control-lg {
   margin-bottom: 0 !important;
 }
 
+.mb-0 a{
+  text-decoration: none;
+  color: black;
+}
+
+.mb-0 a:hover{
+  color: #BEBEBE;
+  transition: color 0.15s ease-in-out;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem !important;
 }
@@ -10972,3 +10982,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
