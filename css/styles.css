@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -602,6 +591,11 @@ progress {
 .img-fluid {
   width: 600px;
   height: 600px;
+}
+
+.imgRWD-fluid{
+  width: 100px;
+  height: 100px;
 }
 
 .img-thumbnail {
@@ -10864,6 +10858,15 @@ p.lead {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+.makardiv a{
+  text-decoration: none;
+}
+
+.makardiv a:hover{
+  background-color: #FFD1A4;	
+  border-radius: 0.5rem;
 }
 
 #sideNav {
