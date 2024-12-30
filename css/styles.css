@@ -10985,7 +10985,7 @@ section.resume-section .resume-section-content {
 
 
 .teachimg{
-  width: 550px;
+  width: 450px;
   height: 300px;
   background-color: #FFD1A4;
   border: solid #adb5bd;
@@ -10995,11 +10995,32 @@ section.resume-section .resume-section-content {
 }
 
 .teachimg img{
-  width: 550px;
+  width: 450px;
   height: 300px;
   object-fit: cover;
 }
 
 .teachimg:hover{
   transform: scale(1.2);
+}
+
+@media(max-width:400px){
+  .teachimg{
+    width: 350px;
+    height: 200px;
+    background-color: #FFD1A4;
+    border: solid #adb5bd;
+    background-size: cover;
+    transition: transform 400ms;
+    float: right;
+  }
+  .teachimg img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .teachimg:hover{
+    transform: scale(1.2);
+  }
 }
