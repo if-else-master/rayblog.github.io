@@ -8042,6 +8042,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  margin-left: auto;
 }
 
 .text-secondary {
@@ -11024,3 +11025,4 @@ section.resume-section .resume-section-content {
     transform: scale(1.2);
   }
 }
+
