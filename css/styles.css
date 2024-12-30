@@ -10989,7 +10989,7 @@ section.resume-section .resume-section-content {
   height: 400px;
   background-color: #FFD1A4;
   border: solid #adb5bd;
-  background-image: url(../img/teach.jpg);
+  background-image: url(img/teach.jpg);
   background-size: cover;
   transition: transform 400ms;
   float: right;
