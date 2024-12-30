@@ -10867,7 +10867,7 @@ p.lead {
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .makardiv a{
@@ -10983,3 +10983,18 @@ section.resume-section .resume-section-content {
   }
 }
 
+
+.teachimg{
+  width: 650px;
+  height: 400px;
+  background-color: #FFD1A4;
+  border: solid #adb5bd;
+  background-image: url(../img/teach.jpg);
+  background-size: cover;
+  transition: transform 400ms;
+  float: right;
+}
+
+.teachimg:hover{
+  transform: scale(1.2);
+}
