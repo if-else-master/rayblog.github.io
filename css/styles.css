@@ -10985,14 +10985,19 @@ section.resume-section .resume-section-content {
 
 
 .teachimg{
-  width: 650px;
-  height: 400px;
+  width: 550px;
+  height: 300px;
   background-color: #FFD1A4;
   border: solid #adb5bd;
-  background-image: url(img/teach.png);
   background-size: cover;
   transition: transform 400ms;
   float: right;
+}
+
+.teachimg img{
+  width: 550px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .teachimg:hover{
