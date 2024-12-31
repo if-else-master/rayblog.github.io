@@ -10870,6 +10870,10 @@ p.lead {
   font-weight: 500;
   font-size: 1.2rem;
 }
+.subheading a{
+  text-decoration: none;
+  
+}
 
 .makardiv a{
   text-decoration: none;
