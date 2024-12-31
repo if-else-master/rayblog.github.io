@@ -10872,7 +10872,7 @@ p.lead {
 }
 .subheading a{
   text-decoration: none;
-  
+
 }
 
 .makardiv a{
@@ -10881,7 +10881,7 @@ p.lead {
 
 .makardiv a:hover{
   background-color: #FFD1A4;	
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
 }
 
 #sideNav {
