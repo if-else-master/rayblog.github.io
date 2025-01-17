@@ -11074,7 +11074,7 @@ section.resume-section .resume-section-content {
   margin: 0 auto;
 }
 
-.photo {
+.photo1 {
   flex: 1;
   max-width: 300px;
   border: 1px solid #ccc;
@@ -11082,7 +11082,7 @@ section.resume-section .resume-section-content {
   overflow: hidden;
 }
 
-.photo img {
+.photo1 img {
   width: 100%;
   height: auto;
   display: block;
@@ -11095,7 +11095,7 @@ section.resume-section .resume-section-content {
       align-items: center;
   }
 
-  .photo {
+  .photo1 {
       width: 100%;
       margin-bottom: 10px;
   }
