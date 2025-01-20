@@ -30,10 +30,11 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">立案過程</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">規劃製作方式</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">初賽</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">決賽</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hart">比賽心得</a></li>   
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#img">照片回顧</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">製作過程</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">使用影片</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hart">參考資料</a></li>   
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#img">未來展望</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hartd">心得</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#project">回上一頁</a></li>                 
                 </ul>
             </div>
@@ -77,14 +78,13 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">初賽</h3>
-                            <div class="subheading mb-3">#好緊張</div>
-                            <div class="makardiv">區賽的地點是在桃園幼獅，正式題目跟公告的題目差不多，不同的地方是資料庫的部分多了修該留言跟刪除留言，其餘的大致一樣。我當時是使用
-                                Adobe Dreamweaver排版，VScode 寫 PHP，但因為不熟練以及很多東西忘記，像是忘記 PHP 的後端連接、忘記 SQL 語法、忘記 XAMPP 的設定等等。總之就是一團糟。最後我只完成了首頁跟登入系統，而且登入系統還是寫死的那種，如下👇<br>$username = admin;<br>$password = 1234;<br>if $username == admin && $password == 1234 echo "登入成功" else echo "登入失敗";<br>總之呢是幸運的通過初賽了，這次區賽也讓我體驗到了四個小時的高強度比賽壓力有多大，好讓我備戰壓力更大的全國賽ヾ(≧▽≦*)o</div>
+                            <h3 class="mb-0">製作過程</h3>
+                            <div class="subheading mb-3">#GPT-SoVITS #Real-Time-Clone-Voice #coqui/XTTS-V #開源 ＃MeCab</div>
+                            <div class="makardiv">在2024年7月時克隆語音的開源模型還沒有那麼多，我當時使用的開源是GPT-SoVITS，但它的效果不怎麼好(後續有更新)並且在git clone下來後的版本跟需要修復的東西實在過多(超過10小時)，所以我後來放棄改用Real-Time-Clone-Voice，這個的效果也不怎麼好但它能讓我快速讀取模型，在版本控制上也沒那麼麻煩，所以他就成為我第一版的克隆音頻非同步影片翻譯軟。那因為Real-Time-Clone-Voice只支援英文克隆(後續有更新)，沒辦法完成國際教育的任務，所以我繼續尋找新的開源模型，這時候已經是2024年底了，huggingface上有各種開源模型，我最後選擇了coqui/XTTS-V，那它就是一個模型包，我使用Python讀取之後就可以使用，當然也有遇到版本控制的問題，numpy、librosa這兩個東西真的很不合。那除了版本控制的問題，我還遇到了日文無法使用TTS的問題，經過資料的查詢得知了需要安裝MeCab，mecab 是基於CRF 的一個日文分詞系統，代碼使用c++ 實現，基本上內嵌了CRF++ 的代碼，同時提供了多種腳本語言調用的接口(python, perl， ruby 等)。整個系統的架構採用通用泛化的設計，用戶可以通過配置文件定制CRF訓練中需要使用的特徵模板。甚至，如果你有中文的分詞語料作為訓練語料，可以在該架構下按照其配置文件的規範定制一個中文的分詞系統。那基本上將這個東西處理好後第二代克隆音頻非同步影片翻譯軟體就完成了，我將在2025年數位實驗高中與日本大宮北高校的國際交流上展示。</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">October 2020 - Present</span></div>
                     </div>                 
-                    <div class="teachimg"><img src="img/lod.jpg" alt=""></div>  
+                    <!-- <div class="teachimg"><img src="img/lod.jpg" alt=""></div>   -->
                 </div>
             </section>
             <hr class="m-0" />
