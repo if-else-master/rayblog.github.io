@@ -11074,6 +11074,15 @@ section.resume-section .resume-section-content {
   margin: 0 auto;
 }
 
+.photo-container2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .photo1 {
   flex: 1;
   max-width: 300px;
@@ -11084,6 +11093,20 @@ section.resume-section .resume-section-content {
 
 .photo1 img {
   width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo3 {
+  flex: 1;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.photo3 img {
+  width: 600px;
   height: auto;
   display: block;
 }
