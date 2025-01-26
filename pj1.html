@@ -29,8 +29,8 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">立案過程</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">規劃製作方式</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">製作過程</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">規劃開發方式</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">開發過程</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">使用影片</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hart">參考資料</a></li>   
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#img">未來展望</a></li>
@@ -63,7 +63,7 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">規劃製作方式</h3>
+                            <h3 class="mb-0">規劃開發方式</h3>
                             <div class="subheading mb-3">#Github #Real-time-clone-Voice #openAI</div>
                             <div class="makardiv">我打算用OpenAI 的API來翻譯音檔文本，那克隆音色怎麼解決呢？現在是2024年9月初，克隆音色的技術還沒有很成熟，目前有一個開源叫做Real-time-Voice-clone，我打算使用這個開源複現克隆音色的功能<br>｜<a href="https://github.com/CorentinJ/Real-Time-Voice-Cloning.git">開源：Real-time-Voice-clone</a>｜</div>
                         </div>                                         
@@ -78,7 +78,7 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">製作過程</h3>
+                            <h3 class="mb-0">開發過程</h3>
                             <div class="subheading mb-3">#GPT-SoVITS #Real-Time-Clone-Voice #coqui/XTTS-V #開源 ＃MeCab</div>
                             <div class="makardiv">在2024年7月時克隆語音的開源模型還沒有那麼多，我當時使用的開源是GPT-SoVITS，但它的效果不怎麼好(後續有更新)並且在git clone下來後的版本跟需要修復的東西實在過多(超過10小時)，所以我後來放棄改用Real-Time-Clone-Voice，這個的效果也不怎麼好但它能讓我快速讀取模型，在版本控制上也沒那麼麻煩，所以他就成為我第一版的克隆音頻非同步影片翻譯軟。那因為Real-Time-Clone-Voice只支援英文克隆(後續有更新)，沒辦法完成國際教育的任務，所以我繼續尋找新的開源模型，這時候已經是2024年底了，huggingface上有各種開源模型，我最後選擇了coqui/XTTS-V，那它就是一個模型包，我使用Python讀取之後就可以使用，當然也有遇到版本控制的問題，numpy、librosa這兩個東西真的很不合。那除了版本控制的問題，我還遇到了日文無法使用TTS的問題，經過資料的查詢得知了需要安裝MeCab，mecab 是基於CRF 的一個日文分詞系統，代碼使用c++ 實現，基本上內嵌了CRF++ 的代碼，同時提供了多種腳本語言調用的接口(python, perl， ruby 等)。整個系統的架構採用通用泛化的設計，用戶可以通過配置文件定制CRF訓練中需要使用的特徵模板。甚至，如果你有中文的分詞語料作為訓練語料，可以在該架構下按照其配置文件的規範定制一個中文的分詞系統。那基本上將這個東西處理好後第二代克隆音頻非同步影片翻譯軟體就完成了，我將在2025年數位實驗高中與日本大宮北高校的國際交流上展示。</div>
                         </div>
