@@ -558,9 +558,15 @@ progress {
   list-style: none;
 }
 
+
+/*************  ✨ Codeium Command 🌟  *************/
 .list-inline-item {
   display: inline-block;
+  font-size: 3rem;
+  margin-right: 0.5rem;
 }
+/******  a63899cc-6b52-4bcc-8f5f-82f6b7ae22ab  *******/ａ
+
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
