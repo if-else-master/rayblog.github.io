@@ -7651,9 +7651,15 @@ textarea.form-control-lg {
   color: black;
 }
 
+
 .mb-0 a:hover{
   color: #BEBEBE;
-  transition: color 0.15s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.mb-0 a:not(:hover) {
+  transition: color 0.5s ease-in-out;
+  color: inherit; /* 滑鼠移開時回到預設顏色 */
 }
 
 .mb-1 {
@@ -10875,18 +10881,21 @@ p.lead {
 
 }
 
-.makardiv{
+.makardiv {
   line-height: 1.8;
 }
 
-.makardiv a{
+.makardiv a {
   text-decoration: none;
+  transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
 }
 
-.makardiv a:hover{
-  background-color: #FFD1A4;	
+.makardiv a:hover {
+  background-color: #FFD1A4;
   border-radius: 0.2rem;
 }
+
+
 
 #sideNav {
   padding-left: 1rem;
@@ -10942,6 +10951,7 @@ p.lead {
     display: block;
   }
 }
+/*************  ✨ Codeium Command 🌟  *************/
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -10953,6 +10963,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  transition: background-color 0.2s ease-in-out;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10960,6 +10971,7 @@ p.lead {
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
 }
+/******  2d97ba64-fc90-43c1-a38b-9abe53b90219  *******/ａ
 
 .dev-icons {
   font-size: 3rem;
