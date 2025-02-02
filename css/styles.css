@@ -5256,7 +5256,6 @@ textarea.form-control-lg {
   --bs-modal-footer-bg: ;
   --bs-modal-footer-border-color: var(--bs-border-color);
   --bs-modal-footer-border-width: 1px;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: var(--bs-modal-zindex);
@@ -11184,4 +11183,38 @@ section.resume-section .resume-section-content {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 程式碼複製框 */
+.code-block {
+  position: relative;
+  background: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+  max-width: 100%;
+  overflow: auto; /* 讓內容可滾動 */
+  white-space: pre-wrap; /* 允許換行 */
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ffcc00;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  .code-block {
+    position: relative;
+    background: #2d2d2d;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
 }
