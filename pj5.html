@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BRANCHES</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Prism.js -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+        <!-- Clipboard.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">靖杭のBlog</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="..."/></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">立案過程</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">規劃開發方式</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">開發過程</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">使用影片</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hart">參考資料</a></li>   
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hartd">心得</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#project">回上一頁</a></li>                 
+                </ul>
+            </div>
+        </nav>     
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="exper">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">克隆音頻非同步影片翻譯軟體</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">立案過程</h3>
+                            <div class="subheading mb-3"></div>
+                            <p class="makardiv">這個專案是”<a href="pj5.html">克隆語音嘴型調整翻譯軟體</a>”的延伸專案，原本只有克隆聲音但這樣的效果會讓人有種不順的感覺，所以在“克隆音頻非同步影片翻譯軟體”的未來展望中我有提到我想要開發一個可以同步嘴型的軟體。</p>
+                        </div>                       
+                    </div>
+                    <!-- <div class="teachimg"><img src="img/clonepj/japan.png" alt=""></div>                            -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">規劃開發方式</h3>
+                            <div class="subheading mb-3">#VideoRe-take</div>
+                            <div class="makardiv">那在我開發的當下是 2025 年的 1 月 15 號，在這個時間點克隆音頻跟嘴型調整的開源專案已經很成熟了，所以我打算直接使用 Github 上的開源專案進行調整使用，那我最後選擇的開源是：videoRe take。</div>
+                        </div>                                         
+                        <div class="flex-shrink-0"><span class="text-primary">August 2024</span></div>                                 
+                    </div>     
+                    <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">開發過程</h3>
+                            <div class="subheading mb-3">#deBug</div>
+                            <div class="makardiv">因為是採用別人做好的開源專案，所以我會談談我遇到的困難以及我怎麼解決的。<br>
+
+                                那首先是我在“克隆音頻非同步影片翻譯軟體”專案中也有碰到的 numpy 不合的問題，那一樣是調整版本後就可以解決的。<br>
+                                那首先我遇到了<br>
+                                    <div>
+                                        <pre class="code-block"><code class="language-javascript">
+Traceback (most recent call last):
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/inference.py", line 345, in <module>
+        main()
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/inference.py", line 103, in main
+        trans_params, im_idx, lm_idx, * = align*img(frame, lm_idx, lm3d_std)
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/third_part/face3d/util/preprocess.py", line 198, in align_img
+        trans_params = np.array([w0, h0, s, t[0], t[1]], dtype=np.float32)
+    ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (5,) + inhomogeneous part.
+                                        </code>                                        
+                                        </pre>
+                                    </div>                                    
+                                這個錯誤應該是錯在 `face3d/util/preprocess.py` 的 `align_img` 函數中，當它試圖創建 `trans_params` 陣列時出現問題。<br>
+
+                                經過查詢後發現應該是這裡出問題<br>
+                                <div>
+                                    <pre class="code-block"><code class="language-javascript">
+trans_params = np.array([w0, h0, s, t[0], t[1]], dtype=np.float32)
+                                    </code>                                        
+                                    </pre>
+                                </div>       
+                                將這一行改為<br>
+                                <div>
+                                    <pre class="code-block"><code class="language-javascript">
+trans_params, im_idx, lm_idx, _ = align_img(frame, lm_idx, lm3d_std)
+
+trans_params = np.array([float(trans_params[0]), float(trans_params[1]),
+float(trans_params[2]), float(trans_params[3]),
+float(trans_params[4])], dtype=np.float32)
+                                    </code>                                        
+                                    </pre>
+                                </div>    
+                                下一個問題<br>
+                                <div>
+                                    <pre class="code-block"><code class="language-javascript">
+Traceback (most recent call last):
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/inference.py", line 345, in <module>
+        main()
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/inference.py", line 214, in main
+        for i, (img_batch, mel_batch, frames, coords, img_original, f_frames) in enumerate(tqdm(gen, desc='[Step 6] Lip Synthesis:', total=int(np.ceil(float(len(mel_chunks)) / args.LNet_batch_size)))):
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/venv/lib/python3.10/site-packages/tqdm/std.py", line 1181, in iter
+        for obj in iterable:
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/inference.py", line 290, in datagen
+        crops, orig_images, quads  = crop_faces(image_size, frames_pil, scale=1.0, use_fa=True)
+    File "/Users/raychang/Documents/專案/videoretalking/video-retalking/utils/alignment_stit.py", line 154, in crop_faces
+        fa = face_alignment.FaceAlignment(face_alignment.LandmarksType._2D, flip_input=True, device=device)
+    File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/enum.py", line 437, in getattr
+        raise AttributeError(name) from None
+        AttributeError: _2D
+                                    </code>                                        
+                                    </pre>
+                                </div>   
+                                那這看起來是關於 utils/alignment_stit.py 中的 crop_faces() 函數問題，那經過查詢，應該是在新版的 face_alignment 中 face_alignment 的使用方式不一樣<br>
+                                <div>
+                                    <pre class="code-block"><code class="language-javascript">
+舊版：face_alignment.LandmarksType.*2D<br>
+<div></div>
+新版 1.4.1 以後：face_alignment.LandmarksType.TWO_D
+                                    </code>                                        
+                                    </pre>
+                                </div>                                                                   
+                                那這些大概就是我的開發(deBug)過程。  
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2024t</span></div>
+                    </div>                 
+                    <!-- <div class="teachimg"><img src="img/lod.jpg" alt=""></div>   -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">點擊圖片觀看介紹影片</h3>
+                            <div class="subheading mb-3">＃資訊科技課 ＃課堂報告 ＃期末專案</div>
+                            <div class="makardiv"></div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2024</span></div>
+                    </div>                    
+                    <div class="photo-container2">                                                                                          
+                        <div class="photo3">      
+                            <a href="https://youtu.be/Wj0YbLqgUy8"><img src="img/clonepj/資訊科技期末報告.png" alt="Photo 1"></a>                                                  
+                        </div>                                         
+                    </div> 
+                    <!-- <div class="teachimg"><img src="img/cc.JPG" alt=""></div>   -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="hart">
+                <div class="resume-section-content">                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">參考資料</h3>
+                            <div class="subheading mb-3"></div>
+                            <div class="makardiv">
+                                <li>https://github.com/Rudrabha/Wav2Lip?tab=readme-ov-file</li>
+                                <li>https://github.com/soumik-kanad/diff2lip/tree/main</li>
+                                <li>https://youtu.be/axFN1PJdgD0?si=gO-EPp6S6G9hZJ7n</li>
+                                <li>https://github.com/OpenTalker/video-retalking</li>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2024</span></div>
+                    </div>                    
+                    <!-- <div class="teachimg"><img src="img/good2.png" alt=""></div>   -->
+                </div>
+            </section>                        
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 9000);    
+            }
+            </script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    new ClipboardJS('.copy-btn');
+                
+                    document.querySelectorAll('.copy-btn').forEach(button => {
+                        button.addEventListener('click', () => {
+                            button.textContent = "Copied!";
+                            setTimeout(() => (button.textContent = "Copy"), 1500);
+                        });
+                    });
+                });
+            </script>                
+    </body>
+</html>
