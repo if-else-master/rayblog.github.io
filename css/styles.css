@@ -7660,11 +7660,16 @@ textarea.form-control-lg {
 
 .mb-0 a:hover{
   color: #BEBEBE;
+  transition: color 0.2s ease-in-out;
+}
+
+.m-0 a:active{
+  color: #BEBEBE;
   transition: color 0.5s ease-in-out;
 }
 
 .mb-0 a:not(:hover) {
-  transition: color 0.5s ease-in-out;
+  transition: color 0.2s ease-in-out;
   color: inherit; /* 滑鼠移開時回到預設顏色 */
 }
 
@@ -11139,10 +11144,14 @@ section.resume-section .resume-section-content {
       flex-direction: column;
       align-items: center;
   }
-
   .photo1 {
       width: 100%;
       margin-bottom: 10px;
+  }
+  .photo3 img{
+    width: 100%;
+    margin-bottom: 10px;
+    
   }
 }
 
