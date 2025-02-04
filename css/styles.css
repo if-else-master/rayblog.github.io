@@ -11035,6 +11035,25 @@ section.resume-section .resume-section-content {
   transform: scale(1.2);
 }
 
+.teachimg2{
+  width: 350px;
+  height: 200px;
+  background-color: #FFD1A4;
+  border: solid #adb5bd;
+  background-size: cover;
+  transition: transform 400ms;
+  float: right;
+}
+.teachimg2 img{
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.teachimg2:hover{
+  transform: scale(1.2);
+}
+
 @media(max-width:400px){
   .teachimg{
     width: 350px;
