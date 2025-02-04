@@ -16,7 +16,13 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="css/styles.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+        <!-- Clipboard.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -111,17 +117,66 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">規劃過程</h3>
-                            <div class="subheading mb-3">#資安 ＃密室逃脫 ＃規劃 ＃實驗室 ＃時間機器</div>
-                            <div class="makardiv">在確定密室逃脫的主題故事之前，我們決定先體驗一次解謎式的密室逃脫。我們選擇了一款名為「消失的實驗室」的密室逃脫進行體驗。過程中，我們不僅深入思考如何設計謎題，還探討了故事與謎題的結合方式，為後續創作提供靈感。
-                                我們最後的規劃是這樣：討論逃脫主題(必須跟資安相關)、分工、製作解謎道具、布置逃脫空間。                            
-                                最後我們的主題是：消失的時間機器之資安密室逃脫。</div>
-                        </div>                                         
-                        <div class="flex-shrink-0"><span class="text-primary">February 2025</span></div>                                 
-                    </div>     
-                    <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
+                            <h3 class="mb-0">開發過程</h3>
+                            <div class="subheading mb-3">#deBug</div>
+                            <div class="makardiv">
+                                <div>
+                                    <pre class="code-block"><code class="language-javascript">
+import socket
+import concurrent.futures
+import time
+
+def check_dns(domain, dns_server):
+    try:
+        # 設定 DNS 伺服器
+        server = socket.gethostbyname_ex(domain)[2]
+        
+        print(f"DNS 伺服器 {dns_server} 的解析結果：")
+        print(f"域名：{domain}")
+        print(f"IP 位址：{server}")
+        return server
+    except Exception as e:
+        print(f"查詢 {dns_server} 時發生錯誤：{str(e)}")
+        return None
+
+def main():
+    domain = "example.com"
+    dns_servers = [
+        "8.8.8.8",        
+        "1.1.1.1",        
+        "208.67.222.222",
+        "9.9.9.9"         
+    ]
+    
+    results = {}
+    for server1 in dns_servers:
+        result = check_dns(domain, server1)
+        results[server1] = result
+    
+    # 比較結果
+    aa = results[dns_servers[0]]
+    if aa:
+        for server2, ips in results.items():
+            if ips != aa:
+                print(f"\nDNS劫持警告：{server2} 返回的IP地址與參考DNS服務器不一致")
+                print(f"{server2} 返回的IP地址：{ips}")
+                print(f"參考IP地址：{aa}")
+            else:
+                print(f"\n{server2} 返回的IP地址一致：{ips}")
+
+if __name__ == "__main__":
+    main()
+                                    </code>                                        
+                                    </pre>
+                                </div>                                                                                                                                              
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2024t</span></div>
+                    </div>                 
+                    <!-- <div class="teachimg"><img src="img/lod.jpg" alt=""></div>   -->
                 </div>
             </section>
+
             <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">

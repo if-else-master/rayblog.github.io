@@ -11191,7 +11191,7 @@ section.resume-section .resume-section-content {
   background: #2d2d2d;
   padding: 10px;
   border-radius: 5px;
-  width: 60%;
+  width: 100%;
   max-width: 100%;
   overflow: auto; /* 讓內容可滾動 */
   white-space: pre-wrap; /* 允許換行 */
