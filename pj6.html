@@ -34,9 +34,9 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">CodeML and CreateML 是什麼</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">規劃過程</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">分工</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">CreateML是什麼</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">CreateML 實作：圖片辨識</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">展示結果</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">遇到的困難</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hart">作品成果</a></li>   
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#word">策展逐字稿</a></li>
@@ -54,9 +54,9 @@
                     <h2 class="mb-5">CodeML and CreateML</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">CodeML and CreateML 是什麼</h3>
+                            <h3 class="mb-0">CreateML是什麼</h3>
                             <div class="subheading mb-3"></div>
-                            <p class="makardiv">CoreML是Apple在2017年的Apple WWDC大會上推出的一個機器學習框架，為了讓開發者不需要花費過多時間去深入瞭解神經網絡以及機器學習的相關知識，也能將機器學習運用在app的製作上。<br>
+                            <p class="makardiv">CreateML 是由一個叫做CoreML的框架開發出來的。CoreML是Apple在2017年的Apple WWDC大會上推出的一個機器學習框架，為了讓開發者不需要花費過多時間去深入瞭解神經網絡以及機器學習的相關知識，也能將機器學習運用在app的製作上。<br>
                                 目前CoreML有以下三大運用框架：
                                 <ol>
                                     <li>Vision：用於高效能圖片、影片分析。</li>
@@ -75,15 +75,29 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">規劃過程</h3>
-                            <div class="subheading mb-3">#資安 ＃密室逃脫 ＃規劃 ＃實驗室 ＃時間機器</div>
-                            <div class="makardiv">在確定密室逃脫的主題故事之前，我們決定先體驗一次解謎式的密室逃脫。我們選擇了一款名為「消失的實驗室」的密室逃脫進行體驗。過程中，我們不僅深入思考如何設計謎題，還探討了故事與謎題的結合方式，為後續創作提供靈感。
-                                我們最後的規劃是這樣：討論逃脫主題(必須跟資安相關)、分工、製作解謎道具、布置逃脫空間。                            
-                                最後我們的主題是：消失的時間機器之資安密室逃脫。</div>
+                            <h3 class="mb-0">CreateML 實作：圖片辨識</h3>
+                            <div class="subheading mb-3">#機器學習 #學習新工具</div>
+                            <div class="makardiv">那首先要先準備圖片，我這邊準備了狗和貓的圖片，實作辨識狗和貓。<br>
+
+                                我們看到下方圖片，這就是我們進到 CreateML 的操作畫面，將檔案丟到 1 裡面後按下 2。接著我們就可以進到 Preview 裡查看結果了。<br>
+                                
+                                訓練資料夾的結構為一個母資料夾，裡面存放各種不同種類的子資料夾，圖片檔案格式可包含 jpeg、png、webp
+                                <div>
+                                    <pre class="code-block"><code class="language-javascript">
+├── train
+│   ├── category1/
+│   │   ├── image1.jpeg
+│   │   └── image2.png
+│   ├── category2/
+│   └── category3/
+                                    </code>                                        
+                                    </pre>
+                                </div>               
+                            </div>
                         </div>                                         
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024</span></div>                                 
+                        <div class="flex-shrink-0"><span class="text-primary"> January 2025</span></div>                                 
                     </div>     
-                    <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
+                    <div class="teachimg"><img src="img/CodeML/111 2.png" alt=""></div>                 
                 </div>
             </section>
             <hr class="m-0" />
@@ -92,18 +106,18 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">分工</h3>
-                            <div class="subheading mb-3">#劇本 ＃故事組 ＃道具組</div>
-                            <div class="makardiv">我的工作主要聚焦在故事組的道具卡牌、劇情梳理、與資安的連結、布景，以及道具組的web架設、IOT的連接。最主要是當故事組與道具組之間溝通的橋樑。</div>
+                            <h3 class="mb-0">展示結果</h3>
+                            <div class="subheading mb-3"></div>
+                            <div class="makardiv">從下方圖片中我們可以發現辨識結果是相當正確的</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary"> January 2025</span></div>
                     </div>                 
                     <div class="photo-container">
                         <div class="photo1">
-                            <img src="img/密室逃脫/file1.png" alt="Photo 1">
+                            <img src="img/CodeML/222.png" alt="Photo 1">
                         </div>
                         <div class="photo1">
-                            <img src="img/密室逃脫/file2.png" alt="Photo 2">
+                            <img src="img/CodeML/333.png" alt="Photo 2">
                         </div>                       
                     </div> 
                 </div>
