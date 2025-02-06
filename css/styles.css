@@ -11228,6 +11228,8 @@ section.resume-section .resume-section-content {
 }
 
 
+
+
 @media (max-width: 768px) {
   .code-block {
     position: relative;
@@ -11235,5 +11237,8 @@ section.resume-section .resume-section-content {
     padding: 10px;
     border-radius: 5px;
     width: 100%;
+    max-width: 100%;
+    overflow: auto; /* 讓內容可滾動 */
+    white-space: pre-wrap; /* 允許換行 */
   }
 }

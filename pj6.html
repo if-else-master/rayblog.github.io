@@ -38,7 +38,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">實作：圖片辨識</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">展示結果</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">結合 SwiftUI</a></li>                       
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#word">心得感想</a></li>                    
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#word">心得感想</a></li>               
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#apa">參考資料</a></li>       
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#pj6">回上一頁</a></li>                 
                 </ul>
             </div>
@@ -313,22 +314,35 @@ extension UIImage {
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">心得感想</h3>
-                            <div class="subheading mb-3">#介紹 ＃逐字稿 ＃玩後解說</div>
-                            <div class="makardiv">開場前情提要：<br>
-                                歡迎大家來玩科技進階密室逃脫，在這次的遊戲中你們扮演的是一群失憶的科學家收到神秘郵件來到這裡，我作為NPC在這裡能給的提示是：請詳細閱讀每一分文件以及越不合理的解法有可能就是正解。<br>                           
-                                遊戲後解說：<br>
-                                在第一關我們想要表達的是密碼不應該直接貼在螢幕上，即便他已經是加密過的摩斯密碼但仍然不應該這樣紀錄，另外如果有網頁或資安相關專業的應該會下意識打開F12查HTML，這時候你就會發現這個網頁的密碼驗證是寫在前端，那這在製作網站時也是不應該出現的寫法。我們破解網頁後就可以發現這邊有一份文件，那這個文件裡有寫說：「保險箱的密碼好像是文件日期」，而我們查看文件日期是2/13，那麼我們在根據附圖的小地圖就可以發現保險箱的存在，將保險箱的密碼轉到213就可以破解。那像這樣將密碼保存在電子郵件的方式是不恰當的，很容易被發現。
-                                那我們閱讀第二關中的文件可以發現，裡面寫說：「某次大停電保險箱突然打開，不知道有沒有被修復」，那這段文字是想要讓玩家嘗試將電源拔掉，在資訊安全中，駭客可能會透過讓伺服器斷電在重啟的方式竊取資料。那打開保險箱後我們可以發現密碼盤的線是完全沒有接東西的。
-                                透過第三關的文件我們可以了解到許多科學家的指紋都被竊取下來了，而這些指紋就散落在保險箱附近，那我們從中找出跟保險箱上指紋相同的磁扣放上去後就能打開保險箱。那這個關卡主要是想要傳達不要將指紋上傳到網路上，會有很多個資上的問題。
-                                在第四關的文件中我們了解到有一個工程師設計了一個電流急急棒保險箱，但鐵絲跟電線的地方似乎沒接好，那這句話其實是希望各位將保險箱上的電線和鐵絲分離，然後將鐵絲直接套到終點然後再接電，這樣就可以直接將保險箱打開。
-                                那透過第五關的文件我們可以發現我們已經來到最終關卡了，文件寫說修復時間機器的方法就是將所有零件組裝上並插上正確的鑰匙，那我們透過接線圖上的提示將線接好後插上正確的鑰匙後時間機器就修好了。
-                                以上就是整個密室逃脫的解說，謝謝大家</div>
+                            <div class="subheading mb-3">#機器學習 #美食 APP</div>
+                            <div class="makardiv">這東西還挺有去的，這讓我想起 2019 年我還是國小的時候，我做了一個疲勞駕駛的偵測系統，那時後是使用影像辨識，那時我們做了車內的樣式以及模擬我們認為的疲勞駕駛時所會出現的動作。那我們那時候每一個動作都要拍 100 張的照片，而且訓練的速度很慢，而現在有這個工具後，訓練模型跟使用模型都方便很多。<br>
+
+                                未來我想要做一個美食地圖 APP，幫助有選擇困難、素食、疾病患者等人可以快速找到想吃的食物。我想嘗試使用 CreateML 來開發這個專案。</div>
                         </div>                                         
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024</span></div>                                 
+                        <div class="flex-shrink-0"><span class="text-primary">January 2025</span></div>                                 
                     </div>     
                     <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
                 </div>
-            </section>                   
+            </section>      
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="apa">
+                <div class="resume-section-content">                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">參考資料</h3>
+                            <div class="subheading mb-3"></div>
+                            <div class="makardiv">
+                                <li>https://ithelp.ithome.com.tw/m/articles/10250625</li>
+                                <li>https://yujustcoding.com/step-by-step/xcode-create-ml-ai.html</li>
+                                <li>https://reurl.cc/Q5laNp</li>
+                            </div>
+                        </div>                                         
+                        <div class="flex-shrink-0"><span class="text-primary">January 2025</span></div>                                 
+                    </div>     
+                    <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
+                </div>
+            </section>                                
         </div>
         <!-- Bootstrap core JS-->
         <!-- Bootstrap core JS-->
