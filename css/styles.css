@@ -7647,8 +7647,10 @@ textarea.form-control-lg {
   margin-right: auto !important;
 }
 
+
 .mb-0 {
   margin-bottom: 0 !important;
+  text-transform: none;
 }
 
 .mb-0 a{
@@ -7690,6 +7692,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  text-transform: none;
 }
 
 .mb-auto {
