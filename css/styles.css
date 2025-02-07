@@ -11249,3 +11249,9 @@ section.resume-section .resume-section-content {
 
 /* //////////// */
 
+
+.hidea{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
