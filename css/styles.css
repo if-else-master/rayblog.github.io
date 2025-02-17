@@ -11213,8 +11213,19 @@ section.resume-section .resume-section-content {
   background: #2d2d2d;
   padding: 10px;
   border-radius: 5px;
-  width: 100%;
+  width: 50%;
   max-width: 80%;
+  overflow: auto; /* 讓內容可滾動 */
+  white-space: pre-wrap; /* 允許換行 */
+}
+
+.code-blockpj3{
+  position: relative;
+  background: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
   overflow: auto; /* 讓內容可滾動 */
   white-space: pre-wrap; /* 允許換行 */
 }
@@ -11233,8 +11244,18 @@ section.resume-section .resume-section-content {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
   .code-block {
+    position: relative;
+    background: #2d2d2d;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    overflow: auto; /* 讓內容可滾動 */
+    white-space: pre-wrap; /* 允許換行 */
+  }
+  .code-blockpj3{
     position: relative;
     background: #2d2d2d;
     padding: 10px;
