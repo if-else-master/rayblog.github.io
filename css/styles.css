@@ -11276,3 +11276,7 @@ section.resume-section .resume-section-content {
   text-decoration: none;
   font-size: 12px;
 }
+
+.padding{
+  padding: 20px 50px;
+}
