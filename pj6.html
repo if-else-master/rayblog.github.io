@@ -34,12 +34,12 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">CreateML是什麼</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">實作：圖片辨識</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">展示結果</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">結合 SwiftUI</a></li>                       
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#word">心得感想</a></li>               
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#apa">參考資料</a></li>       
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exper">活動介紹</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">準備工作</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">逐字講稿</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">心得感想</a></li>                       
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#word">新聞報稿</a></li>               
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#img">照片回顧</a></li>       
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#pj6">回上一頁</a></li>                 
                 </ul>
             </div>
@@ -49,22 +49,18 @@
             <!-- Experience-->
             <section class="resume-section" id="exper">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Xcode CreateML 介紹</h2>
+                    <h2 class="mb-5">國際交流-大宮北高校</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">CreateML是什麼</h3>
+                            <h3 class="mb-0">活動介紹</h3>
                             <div class="subheading mb-3"></div>
-                            <p class="makardiv">CreateML 是由一個叫做CoreML的框架開發出來的。CoreML是Apple在2017年的Apple WWDC大會上推出的一個機器學習框架，為了讓開發者不需要花費過多時間去深入瞭解神經網絡以及機器學習的相關知識，也能將機器學習運用在app的製作上。<br>
-                                目前CoreML有以下三大運用框架：
-                                <ol>
-                                    <li>Vision：用於高效能圖片、影片分析。</li>
-                                    <li>Foundation：用於協助自然語言處理（如NSLinguisticTagger類）。</li>
-                                    <li>GameplayKit：用於在遊戲中導入人工智慧。</li>
-                                </ol>                                
+                            <p class="makardiv">這次的國際交流是由我們台北市數位實驗高級中等學校主辦，跟日本埼玉市立大宮北高等學校進行國際交流。這次的活動除了我們學校的必修課程介紹之外，還有我們學生在課後之餘進行的個人研究或個人專案，而大宮北高校的學生也有準備他們的自主學習並以此進行學生之間的交流。<br>
+
+                                而我們也融合了我們學校的社團或是多元選修課程來進行更多的互動，像是：創客社、食話食說、定向越野等…。                 
                             </p>
                         </div>                       
                     </div>
-                    <div class="teachimg2"><img src="img/CodeML/d926fc62-3dea-4447-86fc-920d4d6c4781.png" alt=""></div>                           
+                    <div class="teachimg2"><img src="img/2025國際交流/IMG_0075.JPG" alt=""></div>                           
                 </div>
             </section>
             <hr class="m-0" />
@@ -73,29 +69,19 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">實作：圖片辨識</h3>
-                            <div class="subheading mb-3">#機器學習 #學習新工具</div>
-                            <div class="makardiv">那首先要先準備圖片，我這邊準備了狗和貓的圖片，實作辨識狗和貓。<br>
+                            <h3 class="mb-0">準備工作</h3>
+                            <div class="subheading mb-3">#AI翻譯國際學習 #創客精神跨國交流 #設計思考遇見日本學生</div>
+                            <div class="makardiv">
+                                我很高興我今年能以個人研究講者以及創客社副社長的身份參加這次國際交流，而我分享的專案是我的 <a href="pj5.html">AI深度影片翻譯模型</a>，這個專案本身就是為了國際學習而開發的，放在這次國際交流展示我覺得在適合不過了。
 
-                                我們看到下方圖片，這就是我們進到 CreateML 的操作畫面，將檔案丟到 1 裡面後按下 2。接著我們就可以進到 Preview 裡查看結果了。<br>
-                                
-                                訓練資料夾的結構為一個母資料夾，裡面存放各種不同種類的子資料夾，圖片檔案格式可包含 jpeg、png、webp
-                                <div>
-                                    <pre class="code-block"><code class="language-javascript">
-├── train
-│   ├── category1/
-│   │   ├── image1.jpeg
-│   │   └── image2.png
-│   ├── category2/
-│   └── category3/
-                                    </code>                                        
-                                    </pre>
-                                </div>               
+我跟我們學校的生物課老師以及必修課老師討論，是否能使用兩位老師的非同步影片課程進行展示，選擇使用這兩堂課老師的教材是因為他們都有露臉，且都是我們學校的特色課程。我們的「生物課」也並非普高的生物課，結合了 IB 教材以及台灣課綱以外的專業知識，必修課則是我們學校的基礎課程「設計思考」，能實際帶日本學生進行我們學校的課程，並進行互動。<br>
+
+而這次除了分享我的個人專案之外還有創客社的活動，在社團活動中，我們用雷射切割和 3D 列印機設計了很多桌遊和可以租裝的數實小吊飾，而我設計了帶有數實 LOGO 的鍵盤按鈕，可以掛在書包之類的地方，然後在藉由桌遊認識彼此。   
                             </div>
                         </div>                                         
-                        <div class="flex-shrink-0"><span class="text-primary"> January 2025</span></div>                                 
+                        <div class="flex-shrink-0"><span class="text-primary"> March 2025</span></div>                                 
                     </div>     
-                    <div class="teachimg"><img src="img/CodeML/111 2.png" alt=""></div>                 
+                    <div class="teachimg"><img src="img/2025國際交流/個人講者.jpg" alt=""></div>                 
                 </div>
             </section>
             <hr class="m-0" />
@@ -104,20 +90,44 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">展示結果</h3>
+                            <h3 class="mb-0">逐字講稿</h3>
                             <div class="subheading mb-3"></div>
-                            <div class="makardiv">從下方圖片中我們可以發現辨識結果是相當正確的</div>
+                            <div class="makardiv">
+                                Hello! I'm 張靖杭, but you can call me Ray.<br>
+
+I’m excited to share my topic today: "Deep Video AI Translation"<br>
+
+At T-School, about 60% of our courses are Async(e think) video lessons. we need to watch <br>videos for learning.so I think if we could translate these videos into different languages with <br>AI！ This will allow more people to see our school’s special course.<br>
+
+Here are the four things I have down in this project:<br>
+<ol>1.Clone Voice</ol>
+<ol>2.Multilingual Translation</ol>
+<ol>3.Lip Synchronization</ol>
+<ol>4.Global Sharing</ol>
+
+I’ve set out to develop this project using open-source models. First, I discovered Real-Time-Clone on GitHub, but I think this model is not the best choose<br>
+
+Now, I want to share with you the three goals of this project.<br>
+
+1.To copy the original(a real g no) voice<br>
+
+I kept searching and found XTTS-V2 from Hugging Face, This models have 18 languages can use a perfect match for what I need!（重點可以提：在新的影片裡，還是可以聽到這位老師原本的聲音his original voice）<br>
+
+1.To translate<br>
+
+I use OpenAI's API to translate video language.<br>
+
+1. To make you feel like he’s actually speaking in Japanese, you can see his mouth is different<br>
+
+For the third goal, I use the open-source VideoRetake model from GitHub. After thorough secondary development and debugging, I’m happy to say that the project is end<br>
+
+Below, you’ll find videos showcasing the before and after of the translations. Anyone want to guess how long it takes to export a 5 second video? If you are interested you can scan(掃描) the QR code and follow my github and instagram<br>
+
+Thank you so much for your listen!<br>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary"> January 2025</span></div>
-                    </div>                 
-                    <div class="photo-container">
-                        <div class="photo1">
-                            <img src="img/CodeML/222.png" alt="Photo 1">
-                        </div>
-                        <div class="photo1">
-                            <img src="img/CodeML/333.png" alt="Photo 2">
-                        </div>                       
-                    </div> 
+                        <div class="flex-shrink-0"><span class="text-primary"> March 2025</span></div>
+                    </div>                                     
                 </div>
             </section>
             <hr class="m-0" />
@@ -126,185 +136,19 @@
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">結合 SwiftUI</h3>
-                            <div class="subheading mb-3">#模型導入 #iOS</div>
-                            <div class="makardiv">那如果我們不只是想判斷狗或鳥，我們可以從<a href="https://developer.apple.com/machine-learning/models/?source=post_page-----ce02a92573f6--------------------------------">Apple官方的模型庫</a>來尋找，我這邊是用的是Resnet50Int8LUT。<br>那我們將模型下載下來後丟進 Xcode並貼上下方程式碼，執行後我們就可以得到下方圖片的結果。       
-                                <div>
-                                    <pre class="code-block"><code class="language-javascript">
-import SwiftUI
-import CoreML
-import UIKit
-import UniformTypeIdentifiers
+                            <h3 class="mb-0">心得感想</h3>
+                            <div class="subheading mb-3">#AI專案深度交流 #從錯誤中成長的國際參與</div>
+                            <div class="makardiv">去年我沒有參加到大宮北的國際交流，這次我參加到了，在活動之前我花了很多時間矯正我的口音，因為我知道我的英文發音有點不清楚，直到交流前我的很多音還是發不出來，但我盡量換句話說，希望能將這個深度翻譯影片的專案詳細介紹給大宮北的學生和老師。<br>
 
-struct ContentView: View {
-    @State private var inputImage: UIImage?
-    @State private var predictionText = "I think this is a ..."
-    @State private var showCameraPicker = false
-    @State private var showLibraryPicker = false
-    
-    private var model: Resnet50Int8LUT?
-    
-    init() {
-        do {
-            model = try Resnet50Int8LUT(configuration: MLModelConfiguration())
-        } catch {
-            print("初始化模型時發生錯誤：\(error)")
-        }
-    }
-    
-    var body: some View {
-        VStack {
-            if let inputImage = inputImage {
-                Image(uiImage: inputImage)
-                    .resizable()
-                    .scaledToFit()
-            } else {
-                Image(systemName: "photo.fill")
-                    .resizable()
-                    .scaledToFit()
-            }
-            
-            Text(predictionText)
-                .padding()
-            
-            HStack {
-                Button(action: { showCameraPicker = true }) {
-                    HStack {
-                        Image(systemName: "camera")
-                        Text("Camera")
-                    }
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(.blue)
-                    .cornerRadius(40)
-                }
-                .sheet(isPresented: $showCameraPicker) {
-                    ImagePicker(image: $inputImage, sourceType: .camera, onImagePicked: processImage)
-                }
-                
-                Button(action: { showLibraryPicker = true }) {
-                    HStack {
-                        Image(systemName: "photo.stack")
-                        Text("Library")
-                    }
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(.blue)
-                    .cornerRadius(40)
-                }
-                .sheet(isPresented: $showLibraryPicker) {
-                    ImagePicker(image: $inputImage, sourceType: .photoLibrary, onImagePicked: processImage)
-                }
-            }
-            .padding()
-        }
-        .padding()
-    }
-    
-    func processImage(_ image: UIImage) {
-        guard let model = model else { return }
-        
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: 224, height: 224), true, 2.0)
-        image.draw(in: CGRect(x: 0, y: 0, width: 224, height: 224))
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        
-        guard let pixelBuffer = newImage.toPixelBuffer(pixelFormatType: kCVPixelFormatType_32ARGB, width: 224, height: 224) else {
-            return
-        }
-        
-        guard let prediction = try? model.prediction(image: pixelBuffer) else {
-            return
-        }
-        
-        let classLabel = cleanClassLabel(prediction.classLabel)
-        let probability = prediction.classLabelProbs[prediction.classLabel] ?? 0
-        let formattedProbability = String(format: "%.2f%%", probability * 100)
-        
-        predictionText = "I think this is a \(classLabel) with probability \(formattedProbability)."
-    }
-    
-    func cleanClassLabel(_ classLabel: String) -> String {
-        if let commaIndex = classLabel.firstIndex(of: ",") {
-            return String(classLabel[..<commaIndex])
-        }
-        return classLabel
-    }
-}
-
-struct ImagePicker: UIViewControllerRepresentable {
-    @Binding var image: UIImage?
-    let sourceType: UIImagePickerController.SourceType
-    let onImagePicked: (UIImage) -> Void
-    
-    func makeCoordinator() -> Coordinator {
-        Coordinator(self)
-    }
-    
-    func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
-        let picker = UIImagePickerController()
-        picker.delegate = context.coordinator
-        picker.sourceType = sourceType
-        picker.mediaTypes = [UTType.image.identifier]
-        picker.allowsEditing = false
-        return picker
-    }
-    
-    func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker>) {}
-    
-    class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-        let parent: ImagePicker
-        
-        init(_ parent: ImagePicker) {
-            self.parent = parent
-        }
-        
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-            if let uiImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-                parent.image = uiImage
-                parent.onImagePicked(uiImage)
-            }
-            picker.dismiss(animated: true)
-        }
-    }
-}
-
-extension UIImage {
-    func toPixelBuffer(pixelFormatType: OSType, width: Int, height: Int) -> CVPixelBuffer? {
-        var pixelBuffer: CVPixelBuffer?
-        let attrs: [String: NSNumber] = [
-            kCVPixelBufferCGImageCompatibilityKey as String: NSNumber(booleanLiteral: true),
-            kCVPixelBufferCGBitmapContextCompatibilityKey as String: NSNumber(booleanLiteral: true)
-        ]
-        
-        let status = CVPixelBufferCreate(kCFAllocatorDefault, width, height, pixelFormatType, attrs as CFDictionary, &pixelBuffer)
-        guard status == kCVReturnSuccess else { return nil }
-        
-        CVPixelBufferLockBaseAddress(pixelBuffer!, CVPixelBufferLockFlags(rawValue: 0))
-        let pixelData = CVPixelBufferGetBaseAddress(pixelBuffer!)
-        let rgbColorSpace = CGColorSpaceCreateDeviceRGB()
-        let context = CGContext(data: pixelData, width: width, height: height, bitsPerComponent: 8, bytesPerRow: CVPixelBufferGetBytesPerRow(pixelBuffer!), space: rgbColorSpace, bitmapInfo: CGImageAlphaInfo.noneSkipFirst.rawValue)
-        
-        context?.translateBy(x: 0, y: CGFloat(height))
-        context?.scaleBy(x: 1.0, y: -1.0)
-        
-        UIGraphicsPushContext(context!)
-        draw(in: CGRect(x: 0, y: 0, width: CGFloat(width), height: CGFloat(height)))
-        UIGraphicsPopContext()
-        
-        CVPixelBufferUnlockBaseAddress(pixelBuffer!, CVPixelBufferLockFlags(rawValue: 0))
-        return pixelBuffer
-    }
-}
-
-                                    </code>                                        
-                                    </pre>
-                                </div>                                        
-                            </div>                            
+                                日本的學生對於開源模型的使用十分好奇，因此我現場有脫稿的情況，因為想要回應日本學生的疑問，以及針對他們有興趣的部分去介紹，像是 hugging face 上模型的使用 github 上的開源專案等。
+                                
+                                大宮北高校本身也是注重科技相關的學校並且也重視國際交流，他們的老師對於這個深度影片翻譯的專案非常有興趣，並且提出明年使用該專案進行課程分享，讓我們數位實驗高中的學生也能體驗大宮北高校的特別課程，而我們學校也能拿出特別的必修課出來分享，讓課程交流的環節更進一步。
+                                
+                                在為來學校的 RTX5090 到貨後我預計針對這個顯卡做針對性的調整，讓輸出的效率更高，但在那之前，我會先完善該專案在本地關的使用體驗。</div>                            
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024</span></div>                        
+                        <div class="flex-shrink-0"><span class="text-primary"> March 2025</span></div>                        
                     </div>                    
-                    <div class="teachimg"><img src="img/CodeML/555.png" alt=""></div>                      
+                    <div class="teachimg"><img src="img/2025國際交流/IMG_0074.JPG" alt=""></div>                      
                 </div>
             </section>           
             <hr class="m-0" />
@@ -313,36 +157,42 @@ extension UIImage {
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">心得感想</h3>
-                            <div class="subheading mb-3">#機器學習 #美食 APP</div>
-                            <div class="makardiv">這東西還挺有去的，這讓我想起 2019 年我還是國小的時候，我做了一個疲勞駕駛的偵測系統，那時後是使用影像辨識，那時我們做了車內的樣式以及模擬我們認為的疲勞駕駛時所會出現的動作。那我們那時候每一個動作都要拍 100 張的照片，而且訓練的速度很慢，而現在有這個工具後，訓練模型跟使用模型都方便很多。<br>
-
-                                未來我想要做一個美食地圖 APP，幫助有選擇困難、素食、疾病患者等人可以快速找到想吃的食物。我想嘗試使用 CreateML 來開發這個專案。</div>
+                            <h3 class="mb-0">新聞報導</h3>
+                            <div class="subheading mb-3"></div>
+                            <div class="makardiv">
+                                <ol>
+                                    <li><a href="https://www.ohmiyakita-h.ed.jp/news/18462/">台湾サイエンス１日目</a></li>
+                                    <li><a href="https://tw.news.yahoo.com/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AE%AE%E5%8C%97%E9%AB%98%E6%A0%A1%E5%8F%83%E8%A8%AA%E5%8C%97%E5%B8%82%E6%95%B8%E4%BD%8D%E5%AF%A6%E4%B8%AD%E4%BA%A4%E6%B5%81%E5%B0%88%E9%A1%8C%E7%A0%94%E7%A9%B6%E9%AB%94%E9%A9%97%E8%87%BA%E7%81%A3%E7%BE%8E%E9%A3%9F-064606849.html">日高校參訪北市數位實中 交流專題體驗臺灣美食</a></li>
+                                    <li><a href="https://www.doe.gov.taipei/News_Content.aspx?n=B3DDF0458F0FFC11&sms=72544237BBE4C5F6&s=ADA73BCCC69F2782">數位實中-日台友誼再續新篇章：大宮北高校與數位實中以創客專題與飲食文化進行國際交流</a></li>
+                                </ol>                                    
+                            </div>
                         </div>                                         
-                        <div class="flex-shrink-0"><span class="text-primary">January 2025</span></div>                                 
+                        <div class="flex-shrink-0"><span class="text-primary"> March 2025</span></div>                                 
                     </div>     
-                    <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
+                    <div class="w3-content w3-section photoframe" style="max-width:800px">     
+                        <img class="" src="img/2025國際交流/個人講者新聞稿.jpeg" style="width:100%">                                                                                                                                             
+                    </div>               
                 </div>
             </section>      
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="apa">
+            <hr class="m-0" />  
+            <section class="resume-section" id="img">
                 <div class="resume-section-content">                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">參考資料</h3>
-                            <div class="subheading mb-3"></div>
-                            <div class="makardiv">
-                                <li>https://ithelp.ithome.com.tw/m/articles/10250625</li>
-                                <li>https://yujustcoding.com/step-by-step/xcode-create-ml-ai.html</li>
-                                <li>https://reurl.cc/Q5laNp</li>
-                            </div>
-                        </div>                                         
-                        <div class="flex-shrink-0"><span class="text-primary">January 2025</span></div>                                 
-                    </div>     
-                    <!-- <div class="teachimg"><img src="img/clonepj/github.png" alt=""></div>                  -->
+                            <div class="w3-content w3-section photoframe" style="max-width:800px">     
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/IMG_0067.JPG" style="width:100%">                                                                                                                      
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/IMG_0073.JPG" style="width:100%">
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/IMG_0074.JPG" style="width:100%">
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/IMG_0075.JPG" style="width:100%">                                                                
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/IMG_0076 2.jpg" style="width:100%">
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/IMG_0077.jpg" style="width:100%">
+                                <img class="mySlides w3-animate-fading" src="img/2025國際交流/個人講者.jpg" style="width:100%">
+                                <!-- <img class="mySlides w3-animate-fading" src="img/密室逃脫/my1.jpeg" style="width:100%"> -->
+                            </div>                       
+                        </div>                       
+                    </div>                    
                 </div>
-            </section>                                
+            </section>                                   
         </div>
         <!-- Bootstrap core JS-->
         <!-- Bootstrap core JS-->
